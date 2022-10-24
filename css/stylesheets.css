@@ -310,6 +310,8 @@ html,body{
     margin-top: 50px;
     width: 80%;
     height: 650px;
+    box-shadow: 5px 5px 15px rgb(0, 18, 58);
+    border-radius: 20px;
   }
 
   .contents-3 {
