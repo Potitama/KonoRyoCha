@@ -19,7 +19,7 @@ if (windowWidth <= windowSm) {
 					"width":0,
 				},
 				"image":{
-					"src":"C:/Users/liste/Desktop/サイト集/このりょうちゃサイト/html/png/star.png",//【重要】画像を指定！桜の画像を設定してください。
+					"src":"./png/star.png",//【重要】画像を指定！桜の画像を設定してください。
 					"width":2200,
 					"height":1600
 				}
@@ -96,7 +96,7 @@ if (windowWidth <= windowSm) {
 					"width":0,
 				},
 				"image":{
-					"src":"C:/Users/liste/Desktop/サイト集/このりょうちゃサイト/html/png/star.png",//【重要】画像を指定！桜の画像を設定してください。
+					"src":"./png/star.png",//【重要】画像を指定！桜の画像を設定してください。
 					"width":2200,
 					"height":1600
 				}
