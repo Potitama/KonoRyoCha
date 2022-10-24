@@ -370,6 +370,12 @@ html,body{
     transition: all 4s;
   }
 
+  .fadeinTop {
+    opacity: 0;
+    transform: rotateY(3.142rad);
+    transition: all 2s;
+  }
+
   .pyonpyon {
     animation: pyon 0.5s linear;
     position: relative;

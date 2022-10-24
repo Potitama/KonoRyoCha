@@ -19,7 +19,7 @@ if (windowWidth <= windowSm) {
 					"width":0,
 				},
 				"image":{
-					"src":"./png/star.png",//【重要】画像を指定！桜の画像を設定してください。
+					"src":"C:/Users/liste/Desktop/サイト集/このりょうちゃサイト/html/png/star.png",//【重要】画像を指定！桜の画像を設定してください。
 					"width":2200,
 					"height":1600
 				}
@@ -96,7 +96,7 @@ if (windowWidth <= windowSm) {
 					"width":0,
 				},
 				"image":{
-					"src":"./png/star.png",//【重要】画像を指定！桜の画像を設定してください。
+					"src":"C:/Users/liste/Desktop/サイト集/このりょうちゃサイト/html/png/star.png",//【重要】画像を指定！桜の画像を設定してください。
 					"width":2200,
 					"height":1600
 				}
@@ -193,16 +193,14 @@ $(window).scroll(function() {
 });
 
 $(window).on('load', function(){
-	$('.faderightTop').each(function() {
-        $(this).css('opacity', '1');
-        $(this).css('transform', 'translateX(0)');
-    });
-});
-
-$(window).on('load', function(){
-	$('.fadeleftTop').each(function() {
-        $(this).css('opacity', '1');
-        $(this).css('transform', 'translateX(0)');
+    $('.fadeinTop').each(function() {
+        var mainHeight = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > mainHeight - windowHeight) {
+            $(this).css('opacity', '1');
+            $(this).css('transform', 'rotateY(0)');
+        }
     });
 });
 
